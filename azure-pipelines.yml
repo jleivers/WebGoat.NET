@@ -32,3 +32,8 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: NexusIqPipelineTask@1
+  inputs:
+    nexusIqService: 'IQ Server'
+    applicationId: 'WebGoat-net'
+    stage: 'Build'
