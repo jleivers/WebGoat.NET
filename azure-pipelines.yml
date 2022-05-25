@@ -37,3 +37,4 @@ steps:
     nexusIqService: 'IQ Server'
     applicationId: 'WebGoat-net'
     stage: 'Build'
+    scanTargets: '**/*.jar, **/*.war, **/*.ear, **/*.zip, **/*.tar.gz, **/*.csproj, **/packages.config'
